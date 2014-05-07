@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/keys.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/wayFind.cs">
     <Files>
-      <File FileName="Assets/scripts/spot.cs" Line="8" Column="43" />
-      <File FileName="Assets/scripts/keys.cs" Line="24" Column="10" />
+      <File FileName="Assets/scripts/keys.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/wayFind.cs" Line="45" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

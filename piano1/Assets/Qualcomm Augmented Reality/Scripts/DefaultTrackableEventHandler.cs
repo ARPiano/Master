@@ -82,6 +82,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         }
 
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+		if (mTrackableBehaviour.TrackableName == "piano_twoOct") {
+			GameObject bgobj=GameObject.Find("twoOcta");
+			bgobj.SendMessage("OnDetected");
+				}
     }
 
 
@@ -103,6 +107,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         }
 
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+		if (mTrackableBehaviour.TrackableName == "piano_twoOct") {
+			GameObject bgobj=GameObject.Find("twoOcta");
+			bgobj.SendMessage("OnLost");
+		}
     }
 
     #endregion // PRIVATE_METHODS
